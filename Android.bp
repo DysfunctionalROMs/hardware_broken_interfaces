@@ -1,4 +1,4 @@
 hidl_package_root {
-    name: "vendor.slim",
-    path: "hardware/slim/interfaces",
+    name: "vendor.broken",
+    path: "hardware/broken/interfaces",
 }

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vendor.slim.power@1.0;
+package vendor.broken.power@1.0;
 
-interface ISlimPower {
+interface IBrokenPower {
     /**
      * getFeature() is called to get the current value of a particular
      * feature or capability from the hardware or PowerHAL
@@ -23,5 +23,5 @@ interface ISlimPower {
      * @param feature Feature which needs to get
      * @return the state of power states the device supports
      */
-    getFeature(SlimFeature feature) generates (int32_t value);
+    getFeature(BrokenFeature feature) generates (int32_t value);
 };

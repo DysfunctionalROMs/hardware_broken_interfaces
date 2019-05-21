@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vendor.slim.power@1.0;
+package vendor.broken.power@1.0;
 
 /** Power hint identifiers passed to powerHint() */
-enum SlimPowerHint : uint32_t {
+enum BrokenPowerHint : uint32_t {
     /**
      * An operation is happening where it would be ideal for the CPU to
      * be boosted for a specific duration. The data parameter is an
@@ -27,6 +27,6 @@ enum SlimPowerHint : uint32_t {
     SET_PROFILE = 0x00000111
 };
 
-enum SlimFeature : uint32_t {
+enum BrokenFeature : uint32_t {
     SUPPORTED_PROFILES = 0x00001000
 };
